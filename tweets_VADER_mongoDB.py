@@ -48,7 +48,7 @@ out_sentiment_analysis = "sentiment_analysis_output\\sentiment_analysis.csv"
 sentiment_analysis("datasets\\twitter_data_100k.csv", out_sentiment_analysis)
 
 # Postaviti svoje podatke o spajanju na bazu
-uri = "mongodb+srv://ajanach:Pa$$w0rd@cluster0.3rju8fg.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://ajanach:<Password>@cluster0.3rju8fg.mongodb.net/?retryWrites=true&w=majority"
 
 # Stvaranje novog klijenta i spajanje na server
 client = MongoClient(uri, server_api=ServerApi('1'))
